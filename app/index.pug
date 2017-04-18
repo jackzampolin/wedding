@@ -9,18 +9,6 @@ include pug/head.pug
                 .hero__date 22 июля 2017
                 .hero__place Ульяновск, <br>«Архангельская Слобода»
 
-.timer#timerblock
-    .container-fluid
-        .row
-            .col-md-12
-                .eyebrow Привет!
-                h2 22 июля 2017, Ульяновск, «Архангельская Слобода»
-                h5 Приглашаем вас на самую душевную вечеринку
-        .row
-            .col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4.timer__row
-                .timer__block.timer__block__days
-                    a(href='resource/glebandmariamap.ics').button.timer__button Добавить в календарь
-
 .newlyweds#newlyweds
     .container-fluid
         .row
@@ -53,11 +41,19 @@ include pug/head.pug
                     a(href='https://twitter.com/maryregen' target='_blank').newlyweds__social_link
                         include pug/logo-twitter.pug
 
+.timer#timerblock
+    .container-fluid
+        .row
+            h5 Приглашаем на самую душевную вечеринку
+            .col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4.timer__row
+                .timer__block.timer__block__days
+                    a(href='resource/glebandmariamap.ics').button.timer__button Добавить в календарь
+
 .event#event
     .container-fluid
         .row.event__center
             .col-md-4.col-md-push-4
-                .eyebrow.eyebrow_invert Наши<br>свадебные<br>события
+                .eyebrow.eyebrow_invert.event__midtitle Наши<br>свадебные<br>события
             .col-sm-6.col-md-4.col-md-pull-4.event__wrapper.event__wrapper_registration
                 .event__block
                     h4.event__title Регистрация
