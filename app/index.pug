@@ -15,12 +15,10 @@ include pug/head.pug
             .col-md-12
                 .eyebrow Привет!
                 h2 22 июля 2017, Ульяновск, «Архангельская Слобода»
-                h5 Приглашаем вас на самую душевную вечеринку.
+                h5 Приглашаем вас на самую душевную вечеринку
         .row
             .col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4.timer__row
                 .timer__block.timer__block__days
-                    h3.timer__block__label  Осталось
-                    .timer__block__value#timer
                     a(href='resource/glebandmariamap.ics').button.timer__button Добавить в календарь
 
 .newlyweds#newlyweds
@@ -72,7 +70,7 @@ include pug/head.pug
                             .event__time__inner
                                 img(src='images/icon-calendar.svg')
                                 div Cуббота<br>22 июля 2017
-                        img(src='images/flower.svg').event__time__flower
+                        img(src='images/flower2.svg').event__time__flower
                     .event__description Торжественная регистрация брака пройдёт на турбазе «Архангельская Слобода». Сбор гостей в Центре и в Новом Городе в 13:00.
                     a(href='#maps').button.button_ghost Карта
             .col-sm-6.col-md-4.event__wrapper.event__wrapper_banquet
@@ -87,7 +85,7 @@ include pug/head.pug
                             .event__time__inner
                                 img(src='images/icon-calendar.svg')
                                 div Cуббота<br>22 июля 2017
-                        img(src='images/flower.svg').event__time__flower
+                        img(src='images/flower2.svg').event__time__flower
                     .event__description Праздничный банкет состоится на турбазе «Архангельская Слобода» в беседке под номером 8.
                     a(href='#maps').button.button_ghost Карта
 
@@ -96,7 +94,7 @@ include pug/head.pug
         .row
             .col-md-6.col-md-offset-3
                 .eyebrow Дресс-код
-                h5 Праздник пройдёт за городом, потому просим вас отдать предпочтение природным оттенкам при выборе наряда.
+                h5 Праздник пройдёт за городом, потому просим вас отдать предпочтение природным оттенкам при выборе наряда
         .row
             .col-md-12.dresscode__colors
                 .dresscode__color.dresscode__color_1
@@ -106,51 +104,12 @@ include pug/head.pug
                 .dresscode__color.dresscode__color_5
                 .dresscode__color.dresscode__color_6
 
-.gallery
-    .container-fluid
-        .row
-            .col-md-12
-                .eyebrow Фотолента
-        .row
-            .galleryfeed.gallery__feed
-                .col-md-4.col-sm-6.gallery__feed__wrapper
-                    a.gallery__feed__link(href='#', target='_blank')
-                        img.gallery__feed__image(src='images/gallery/gallery1.jpg')
-                .col-md-4.col-sm-6.gallery__feed__wrapper
-                    a.gallery__feed__link(href='#', target='_blank')
-                        img.gallery__feed__image(src='images/gallery/gallery2.jpg')
-                .col-md-4.col-sm-6.gallery__feed__wrapper
-                    a.gallery__feed__link(href='#', target='_blank')
-                        img.gallery__feed__image(src='images/gallery/gallery3.jpg')
-                .col-md-4.col-sm-6.gallery__feed__wrapper
-                    a.gallery__feed__link(href='#', target='_blank')
-                        img.gallery__feed__image(src='images/gallery/gallery4.jpg')
-                .col-md-4.col-sm-6.gallery__feed__wrapper
-                    a.gallery__feed__link(href='#', target='_blank')
-                        img.gallery__feed__image(src='images/gallery/gallery5.jpg')
-                .col-md-4.col-sm-6.gallery__feed__wrapper
-                    a.gallery__feed__link(href='#', target='_blank')
-                        img.gallery__feed__image(src='images/gallery/gallery6.jpg')
-        .row
-            .col-md-4.col-md-offset-4
-                a(href='#').button.gallery__button Скачать
-                .gallery__button__info ZIP, 276 МБ
-
-.video#video
-    .container-fluid
-        .row
-            .col-md-12
-                .eyebrow.eyebrow_invert Видео
-        .row
-            .col-md-12
-                iframe(src='https://player.vimeo.com/video/163711369?color=f05f75&title=0&byline=0&portrait=0', width='100%', height='100%', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='').video__vimeo
-
 .contact#contact
     .container-fluid
         .row
             .col-md-12
                 .eyebrow Контакты
-                h5 Пожалуйста, подтвердите своё участие телефонным звонком.
+                h5 Пожалуйста, подтвердите своё участие телефонным звонком
         .row
             .col-xs-6.col-md-4.col-md-offset-2
                 h3.contact__name Глеб
