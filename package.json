@@ -1,0 +1,23 @@
+{
+  "name": "gongled-wedding",
+  "version": "1.0.0",
+  "description": "Open sourced landing page as a unique wedding invitation page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "",
+    "gulp-less": "",
+    "gulp-clean-css": "",
+    "gulp-autoprefixer": "",
+    "gulp-sourcemaps": "",
+    "gulp-plumber": "",
+    "gulp-pug": "",
+    "gulp-notify": "",
+    "gulp-imagemin": "",
+    "browser-sync": ""
+  }
+}

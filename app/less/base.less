@@ -1,0 +1,140 @@
+@import "vars.less";
+
+.clearfix {
+    clear: both;
+}
+.container-fluid {
+	max-width: 1170px;
+}
+body {
+	font-family: @font-sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+}
+p {
+	color: @paragraph-color;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+}
+h1 {
+	color: @main-color;
+	font-family: @font-serif;
+	font-size: 2.25rem;
+	line-height: 1.2;
+
+	@media @md {
+
+	}
+}
+h2 {
+	color: @header-color-h2;
+	font-size: 1.25rem;
+	font-family: @font-sans-serif-header;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-align: center;
+
+	@media @md {
+		font-size: 1.5rem;
+	}
+}
+h3 {
+	color: @header-color-h3;
+	font-size: 1.3rem;
+	font-family: @font-serif;
+	line-height: 2.125;
+	text-transform: uppercase;
+	text-align: center;
+
+	@media @md {
+		font-size: 1.6rem;
+	}
+}
+h4 {
+	color: @header-color;
+	font-size: 1.2rem;
+	line-height: 1.3;
+	text-align: center;
+
+	@media @md {
+		font-size: 1.375rem;
+	}
+}
+h5 {
+	color: @header-color-h3;
+	font-size: 1rem;
+	line-height: 1.15;
+	text-align: center;
+
+	@media @md {
+		font-size: 1.1rem;
+	}
+}
+h6 {
+	color: @header-color-h3;
+	font-size: 0.7rem;
+	line-height: 1.1;
+	text-align: center;
+
+	@media @md {
+		font-size: 0.7rem;
+	}
+}
+.text-invert {
+	color: #fff;
+}
+.eyebrow {
+	// transform: rotate(-15deg);
+	text-align: center;
+	color: @eyebrow-color;
+	font-family: @font-script;
+	font-size: 3.5rem;
+	line-height: 0.7;
+	margin-top: 60px;
+	margin-bottom: 30px;
+
+	&_invert {
+		text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 30px #000;
+		color: #fff;
+	}
+
+	@media @lg {
+		font-size: 5rem;
+		margin-top: 100px;
+		margin-bottom: 40px;
+	}
+}
+a {
+	color: @main-color;
+	text-decoration: none;
+}
+.button {
+	padding: 0.7em 1.6em;
+	background-color: transparent;
+	border: 1px solid @main-color;
+	font-size: 1rem;
+	border-radius: 0.3em;
+	text-align: center;
+	text-transform: uppercase;
+	transition: color .3s ease,border .3s ease,background .3s ease;
+	color: @main-color;
+	cursor: pointer;
+
+	&:hover {
+		background-color: @main-color;
+		color: #fff;
+	}
+
+	&_ghost {
+		border: 1px solid #fff;
+		color: #fff;
+
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.3);
+			color: #fff;
+			text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+		}
+	}
+}

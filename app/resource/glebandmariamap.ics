@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+X-WR-CALNAME:Приглашаем на свадьбу Глеба и Марии, 22 июля 2017 «Архангельская Слобода»
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Yerevan
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Yerevan
+X-LIC-LOCATION:Asia/Yerevan
+BEGIN:STANDARD
+TZOFFSETFROM:+0400
+TZOFFSETTO:+0400
+TZNAME:AMT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20170219T141020Z
+UID:20170219T141020Z-757991429@marudot.com
+DTSTART;TZID="Asia/Yerevan":20170722T120000
+DTEND;TZID="Asia/Yerevan":20170722T220000
+SUMMARY:Cвадьба Глеба и Марии\, 22 июля
+URL:https://glebandmaria.ru
+DESCRIPTION:Приглашаем на свадьбу Глеба и Марии\, 22 июля 2017 «Архангельская Слобода»
+LOCATION:Park-otel Arkhangelskaya sloboda\, Ulyanovskaya oblast
+END:VEVENT
+END:VCALENDAR
